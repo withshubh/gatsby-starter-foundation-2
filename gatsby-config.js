@@ -15,6 +15,9 @@ const settings = require("./src/util/site.json")
 module.exports = {
   siteMetadata: settings.meta,
   plugins: [
+        `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -30,8 +33,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-image`,
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`
     {
       resolve: `gatsby-transformer-remark`,
       options: {
