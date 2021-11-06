@@ -1,12 +1,12 @@
 {
   "meta": {
-    "title": "Foundation",
+    "title": "Living Life",
     "titleTemplate": "%s",
     "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
-    "siteUrl": "https://foundation.stackrole.com",
+    "siteUrl": "https://dazzling-carson-b11fb8.netlify.app",
     "image": "/assets/stackrole.png",
     "iconimage": "/assets/stackrole.png",
-    "twitterUsername": "@stackrole"
+    "twitterUsername": "@papplegate"
   },
   "ga": "UA-XXXXXXXXX-X"
 }
